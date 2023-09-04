@@ -29,12 +29,12 @@
 -- Post테이블 생성완료 
 -- Comment 테이블 생성해야함 
 -- 그리고 두 테이블은 1:N 관계이다. 
-CREATE TABLE Comment(
-    id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
-    -- 이제 이미 생성한 Post테이블의 id 값과 연결시켜주자
-    post_id INTEGER NOT NULL, 
-    content TEXT NOT NULL, 
+-- CREATE TABLE Comment(
+--     id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, 
+--     -- 이제 이미 생성한 Post테이블의 id 값과 연결시켜주자
+--     post_id INTEGER NOT NULL, 
+--     content TEXT NOT NULL, 
 
-    FOREIGN KEY(post_id) REFERENCES Post(id) 
-    -- Refferences ~를 참고하여 
-);
+--     FOREIGN KEY(post_id) REFERENCES Post(id) 
+--     -- Refferences ~를 참고하여 
+-- );
