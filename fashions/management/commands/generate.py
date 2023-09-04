@@ -1,6 +1,6 @@
 from django.core.management.base import BaseCommand
 from faker import Faker
-from yourapp.models import User, Category, Item, Design, Payment
+from fashions.models import User, Category, Item, Design, Payment
 
 class Command(BaseCommand):
 
