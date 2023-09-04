@@ -38,3 +38,5 @@
 --     FOREIGN KEY(post_id) REFERENCES Post(id) 
 --     -- Refferences ~를 참고하여 
 -- );
+
+-- Drop TABLE Comment; 
