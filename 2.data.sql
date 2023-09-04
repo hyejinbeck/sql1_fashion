@@ -84,3 +84,18 @@
 
 --SELECT DISTINCT content FROM Post;
 -- Post의 content 값만 중복되지 않게 나열된다. 
+
+
+
+-- 이후 Django 의 ORM sql 을 설치 후 실행합니다. 
+
+-- 1) 가상환경 및 장고 실행 
+-- source venv/bin/activate
+-- pip install django
+-- django-admin startproject ormsql . 
+-- django-admin startapp fashions 
+
+-- 2) 앱 추가 
+-- settings.py 의 INSTALLED_APPS 
+-- "fashions" 추가합니다. 
+
