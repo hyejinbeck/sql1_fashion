@@ -99,4 +99,4 @@
 -- settings.py 의 INSTALLED_APPS 
 -- "fashions" 추가합니다. 
 
--- 3) 모델링 
+-- 3) 모델링 models.py 
