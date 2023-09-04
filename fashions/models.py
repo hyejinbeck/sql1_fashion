@@ -8,7 +8,7 @@ class User(models.Model):
     sex = models.CharField(max_length=10)
 
 class Category(models.Model):
-    name = models.CharField(max_length=10)
+    name = models.CharField(max_length=300)
 
 class Design(models.Model):
     color = models.CharField(max_length=10)

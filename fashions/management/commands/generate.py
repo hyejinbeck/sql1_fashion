@@ -23,7 +23,7 @@ class Command(BaseCommand):
             category = Category.objects.create(name=category_name)
             
             # 디자인과 연결
-            for _ in range(3):  # 각 카테고리당 3가지 디자인 생성
+            for _ in range(30):  # 각 카테고리당 30가지 디자인 생성
                 design = Design.objects.create(
                     color=fake.color_name(),
                     customer_age=fake.random_element(elements=(10, 20, 30, 40, 50, 60, 70)),
